@@ -1,0 +1,237 @@
+:root {
+    --bg-primary:rgb(75, 75, 75);
+    --bg-secondary:white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    padding:0;
+    overflow-x: hidden;
+    width:85%;
+}
+
+body::-webkit-scrollbar{
+    width:10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(126, 126, 126);
+}
+
+header {
+    background-color:var(--bg-primary);
+    color:white;
+    width:100%;
+    height:fit-contents;
+    min-height:140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.logo {
+    display:inline-block;
+}
+
+.logo h1 {
+    margin-top:0;
+    padding:25px 15px 0px 15px;
+    font-size:35px;
+    margin-bottom:20px
+}
+
+.contact {
+    float:right;
+    font-size:14px;
+    text-align:right;
+    padding-right:7px;
+}
+
+nav ul li {
+    list-style: none;
+    display:inline;
+    margin:10px 15px;
+}
+
+nav ul li:hover{
+    text-decoration:underline;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.pagephoto {
+    height:150px;
+    width:80%;
+    margin:15px auto;
+    
+}
+
+#homephoto {
+    background:url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter:grayscale(40%);
+}
+
+.intro {
+    border-top:1px #333 solid;
+    border-radius:15px;
+    width:80%;
+    padding:0px 30px;
+    margin:auto;
+}
+
+.intro h2 {
+    font-size:40px;
+}
+
+.services {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    grid-area: auto;
+    width:95%;
+    margin:auto;
+}
+
+.service:hover{
+    filter:grayscale(0%);
+    transition:ease-in-out 500ms;
+}
+
+
+.service {
+    height:190px;
+    background-color:var(--bg-primary);
+    margin:15px;
+    border-radius:5px;
+    border:1px black solid;
+    text-align:center;
+    filter:grayscale(60%);
+    transition:ease-in 900ms;
+}
+
+.service h3 {
+    color:white;
+    font-size:25px;
+    padding:10px;
+    background-color:#333;
+    filter:opacity(70%);
+    border-radius:5px;
+    position:absolute;
+    bottom:0;
+}
+
+#companyCommercial{
+    background: url(img/commercial.jpg);
+    background-size: cover;
+}
+
+#ComProp {
+    background: url(img/comprop.jpg);
+    background-size: cover;
+}
+
+#COP {
+    background: url(img/cop.jpg);
+    background-size: cover;
+}
+
+#conveyancing {
+    background: url(img/conv.jpg);
+    background-size: cover;
+}
+
+#willsProbate {
+    background: url(img/wills.jpg);
+    background-size: cover;
+}
+
+.pricelist {
+    color:black;
+    text-decoration: underline;
+}
+
+.pricelist:hover{
+    columns: #333333;
+    text-decoration:none;
+}
+
+footer {
+    width:90%;
+    margin:25px auto 0 auto;
+    padding:20px;
+    border-top:1px black solid;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    /* background-color:rgb(202, 202, 202); */
+}
+
+.footcontact {
+    display:inline-block;
+    font-size:14px;
+}
+
+.accreditations {
+    width:fit-content;
+    float:right;
+    padding-top:15px;
+    margin:auto;
+}
+
+.qual {
+    height:70px;
+    display:inline-block;
+}
+
+.qual img {
+    height:100%;
+}
+
+@media only screen and (max-width:800px) {
+    .footcontact{
+        margin:auto;
+        display:block;
+        text-align:center;
+    }
+    .accreditations {
+        float: none;
+        margin:auto;
+    }
+}
+
+@media (max-width:700px){
+    .contact{
+        display:none;
+    }
+
+    .logo {
+        display:block;
+        margin:auto;
+        text-align:center;
+    }
+
+    .logo h1 {
+        font-size:40px;
+    }
+    
+    ul {
+        padding-left:0;
+    }
+
+    nav ul li {
+        margin:10px 7px;
+    }
+
+    nav {
+        margin: 40px auto;
+        text-align:center;
+    }
+    .services {
+        width:100%;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}

@@ -1,0 +1,34 @@
+body{
+    background-color:#333;
+    color:white;
+}
+
+#input {
+    width:fit-content;
+    margin:auto;
+    border-radius:15px;
+}
+#input-and-output{
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+}
+#mpg{
+    width:100%;
+    height:fit-content;
+}
+#output {
+    border-radius:15px;
+    height:fit-content;
+}
+#outputmpg {
+    height:38px;
+    width:291.13px;
+    background-color:white;
+    color:black;
+    border-radius:5px;
+}
+#mpgresult {
+    display:inline-block;
+    padding: 6px 12px;
+}

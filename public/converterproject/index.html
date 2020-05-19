@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/favicon.ico" type="image" />
+
+    <title>MPG Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-md md-3">
+        <h1 id="title" class="text-center mb-5 mt-5"><span class="text-info">MPG</span> Converter</h1>
+    </div>
+    <div id="input-and-output">
+    <div id="input" class="p-3 bg-secondary">
+        <div class="input-group mb-3">
+            <input type="text" id="miles" class="form-control" placeholder="Enter Miles...">
+            <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">Miles</span>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" id="litres" class="form-control" placeholder="Enter Litres...">
+            <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">Litres</span>
+            </div>
+        </div>     
+    </div>
+    <div id="output" class=" mt-4 pt-3 pb-3 bg-secondary">
+        <div id="mpg" class="container-sm">
+            <div id="outputmpg">
+                <div id="mpgresult"></div>
+            <span class="input-group-text float-right" id="basic-addon2">MPG</span>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
