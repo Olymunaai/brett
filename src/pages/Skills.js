@@ -4,16 +4,16 @@ const Skills = () => {
   return (
     <Fragment>
       <header>
-        <div class="pageContainer ">
-          <h1 class="trainingskills">Training & Skills</h1>
-          <div class="aboutContainer">
-            <div class="skillsDiv">
+        <div className="pageContainer ">
+          <h1 className="trainingskills">Training & Skills</h1>
+          <div className="aboutContainer">
+            <div className="skillsDiv">
               <img
                 src="./img/AngelaYuCert.jpg"
                 alt="certificate"
-                class="cert"
+                className="cert"
               />
-              <p class="cert-para">
+              <p className="cert-para">
                 In addition to self-teaching and using online tutorials, I have
                 completed Angela Yu's complete 2020 Web Development Bootcamp
                 course, which covered a range of frontend and backend
@@ -21,11 +21,11 @@ const Skills = () => {
               </p>
             </div>
 
-            <div class="skillsDiv">
+            <div className="skillsDiv">
               <img
                 src="./img/languages.png"
                 alt="languages"
-                class="skills-lang"
+                className="skills-lang"
               />
               <ul>
                 <li>Node.js</li>

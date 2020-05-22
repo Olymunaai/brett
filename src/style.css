@@ -51,7 +51,7 @@ ul {
   height: 150px;
   width: 60%;
   right: 0;
-  position: fixed;
+  position: absolute;
   top: 0px;
   z-index: 1;
 }
@@ -186,4 +186,39 @@ header {
   grid-area: auto;
   margin: auto;
   width: 80%;
+}
+
+@media (max-width: 930px) {
+  .aboutContainer {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .cert-para {
+    width: 90%;
+    margin: 20px auto 20px auto;
+  }
+
+  .skillsDiv {
+    margin: 20px auto 20px auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project {
+    width: 90%;
+  }
+
+  .projectsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .imgOverlay {
+    display: none;
+  }
+
+  .project img {
+    position: static;
+  }
 }

@@ -6,12 +6,12 @@ const Projects = () => {
   return (
     <Fragment>
       <header>
-        <div class="pageContainer projectsContainer">
+        <div className="pageContainer projectsContainer">
           {project.map((project) => (
-            <div class="project projectDiv">
-              <a target="_blank" href={project.link}>
+            <div className="project projectDiv">
+              <a target="_blank" rel="noopener noreferrer" href={project.link}>
                 <img src={project.img} alt="project" />
-                <div class="imgOverlay"></div>
+                <div className="imgOverlay"></div>
                 <h3>{project.name}</h3>
                 <p>{project.info}</p>
               </a>

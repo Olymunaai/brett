@@ -1,7 +1,7 @@
 const project = [
   {
     img: "./img/waffle.PNG",
-    link: "/waffles",
+    link: "./waffles",
     name: "Keep Waffling",
     info:
       "A small project I created to practice using Bootstrap. Also yes, I made all of these waffle meals.",
