@@ -1,17 +1,17 @@
 const project = [
   {
-    img: "./img/waffle.PNG",
-    link: "./waffles",
-    name: "Keep Waffling",
-    info:
-      "A small project I created to practice using Bootstrap. Also yes, I made all of these waffle meals.",
-  },
-  {
     img: "./img/pokesearch.PNG",
     link: "https://master.d3kxjeypygyes8.amplifyapp.com/",
     name: "PokéSearch",
     info:
       "Using React, I created a basic search tool, allowing a user to search for either a pokémon name or entry number and retrieve some information from PokéAPI. This is hosted on AWS.",
+  },
+  {
+    img: "./img/waffle.PNG",
+    link: "./waffles",
+    name: "Keep Waffling",
+    info:
+      "A small project I created to practice using Bootstrap. Also yes, I made all of these waffle meals.",
   },
   {
     img: "./img/mpg.PNG",
@@ -28,4 +28,5 @@ const project = [
       "I recruited for this company and noticed that their website is dated and not reactive in design. I decided to create a landing page, using information from their public website. This project uses HTML and CSS.",
   },
 ];
+
 export default project;
