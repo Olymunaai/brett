@@ -1,0 +1,218 @@
+body{
+    font-family:"montserrat";
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight:900;
+    font-size:6rem;
+}
+
+.col-sm-5 img{
+    height:300px;
+    margin:auto;
+}
+
+header {
+    height:70vh;
+    min-height:568px;
+}
+
+.download1 {
+    height:30vh;
+    min-height:223px;
+}
+
+#headcontainer {
+    padding: 5%;
+}
+
+.btncontainer{
+    width:fit-content;
+}
+
+.h2-download {
+    text-align: center;
+}
+
+.waffh2 {
+    max-width:500px;
+    float:right;
+}
+
+#macwaff {
+    border-radius:180px;
+    height:255px;
+    width:255px; 
+    grid-template-columns: minmax(255px, 3fr);
+}
+
+p{
+    line-height: 2rem;
+}
+
+#testimonials {
+    height:380px;
+}
+
+.review { 
+    padding:15%;
+}
+
+.reviewer {
+    margin-top:5%;
+}
+
+#samples {
+    height:fit-content;
+}
+
+.egs {
+    display:grid;
+    max-width:1220px;
+    margin:auto;
+    align-items:center;
+}
+
+.rightpic{
+    display:inline-block;
+    grid-column-start:10;
+    grid-column-end:12;
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+.lefttext {
+    display:inline-block;
+    grid-column-start:1;
+    grid-column-end:9;
+    grid-row-start:1;
+    grid-row-end:1;
+} 
+
+.righttext{
+    display:inline-block;
+    grid-row-start:1;
+    grid-row-end:1;
+    grid-column-start:4;
+    grid-column-end:12
+}
+
+.leftpic {
+    display:inline-block;
+    grid-row-start:1;
+    grid-row-end:1;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+.pad15 {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.waffbook {
+    height:280px;
+    transform:rotate(-25deg);
+    box-shadow: -10px 10px #6c757d;
+    margin:3rem auto 4rem;
+    float:right;
+}
+
+.bottomdownload {
+    height:fit-content;
+    align-items:center;
+}
+
+ul {
+    list-style:none;
+    font-size:1.3rem;
+}
+
+ul li {
+    line-height: 2.5rem;
+}
+
+ul li:before {
+    content:'✓';
+}
+
+.copyright {
+    margin-left:1rem;
+    height:4rem;
+}
+
+.copyright p {
+    padding:1rem;
+    margin-bottom:0;
+}
+
+.waffbookdiv{
+    margin-left:2rem;
+}
+
+
+@media (max-width:780px){
+    .egs {
+        display:block;
+    }
+
+    .rightpic, .righttext, .leftpic, .lefttext {
+        display:block;
+        margin:auto;
+    }
+
+
+
+    .col-sm-5 img{
+        height:180px;
+        margin:auto;
+    }
+
+    h1 {
+        font-weight:900;
+        font-size:4rem;
+        padding-top:2rem;
+    }
+
+    .waffh2{
+        font-size:24px;
+    }
+
+    h2 {
+        font-size:1.5rem;
+    }
+
+    .display-4 {
+        font-size:2rem;
+    }
+
+    h4 {
+        font-size:1rem;
+    }
+
+}
+
+@media (max-width:767px) {
+    .waffbook, .waffbookdiv {
+        position: static;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    ul {
+        padding-top:2rem;
+    }
+}
+
+@media (max-width:575px) {
+    .col-sm-5 img{
+        display:block;
+        margin:auto;
+        position:absolute;
+    }
+
+    .col-sm-5 {
+        margin:-2rem auto;
+    }
+}
