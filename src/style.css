@@ -1,17 +1,17 @@
 :root {
   --color1: white;
-  --color2: rgb(59, 105, 120);
-  --color3: rgba(132, 169, 172, 0.322);
-  --color4: black;
+  --color2: #455a64;
+  --color3: #37474f;
+  --color4: #263238;
 }
 
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: black;
+  background-color: var(--color2);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--color3);
+  background-color: var(--color4);
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   /* background-image: url(./img/bgimg.png); */
-  background-color: var(--color4);
+  background-color: var(--color3);
   color: var(--color1);
   position: relative;
   top: 0;
@@ -37,7 +37,7 @@ ul {
   padding: 0;
 }
 
-.clipPath {
+/* .clipPath {
   background: var(--color3);
   filter: opacity(70%);
   position: fixed;
@@ -45,15 +45,16 @@ ul {
   clip-path: polygon(15% 0%, 55% 0%, 100% 40%, 100% 70%, 0% 100%);
   height: 100vh;
   width: 100vw;
-}
+} */
 
 .navbar {
-  height: 150px;
-  width: 60%;
+  height: 10vh;
+  width: 100%;
   right: 0;
-  position: absolute;
+  position: fixed;
   top: 0px;
   z-index: 1;
+  background-color: var(--color4);
 }
 
 .navbar-nav {
@@ -61,15 +62,38 @@ ul {
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
-  margin: auto;
+  width: 50%;
   padding: 0;
+  position: sticky;
+  float: right;
+  transition: ease-in-out;
+}
+
+.burger-div {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  display: none;
+  z-index: 10;
+}
+
+.burger {
+  border-bottom: 3px white solid;
+  width: 30px;
+  height: 8px;
+}
+
+.burger-div:hover {
+  cursor: pointer;
 }
 
 .title {
   font-size: 6rem;
   font-weight: 500;
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 10vh;
 }
 
 .lang-img {
@@ -86,7 +110,7 @@ ul {
 
 .pageContainer {
   position: relative;
-  top: 20%;
+  top: 15vh;
 }
 
 .underTitle {
@@ -220,5 +244,27 @@ header {
 
   .project img {
     position: static;
+  }
+}
+
+@media (max-width: 700px) {
+  .burger-div {
+    display: flex;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    float: none;
+    height: 30vh;
+    background: var(--color4);
+    width: 100%;
+    display: none;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  .show {
+    display: flex;
+    transition: opacity 500ms ease-out;
   }
 }
