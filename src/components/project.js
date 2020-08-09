@@ -1,5 +1,12 @@
 const project = [
   {
+    img: "./img/3310.PNG",
+    link: "https://master.d343b25wawqlw7.amplifyapp.com/",
+    name: "Apple-styled Nokie 3310",
+    info:
+      "The purpose of this project was to try and recreate some of what makes apple's marketing stand out, attempting to reverse engineer their product page look.",
+  },
+  {
     img: "./img/pokesearch.PNG",
     link: "https://master.d3kxjeypygyes8.amplifyapp.com/",
     name: "PokéSearch",
