@@ -9,6 +9,23 @@ const Skills = () => {
           <div className="aboutContainer">
             <div className="skillsDiv">
               <img
+                src="./img/languages.png"
+                alt="languages"
+                className="skills-lang"
+              />
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>React.js</li>
+                <li>MongoDB / Mongoose</li>
+                <li>DOM Manipulation</li>
+                <li>Bash Command Line</li>
+                <li>Git</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+            <div className="skillsDiv">
+              <img
                 src="./img/AngelaYuCert.jpg"
                 alt="certificate"
                 className="cert"
@@ -19,25 +36,6 @@ const Skills = () => {
                 course, which covered a range of frontend and backend
                 development.
               </p>
-            </div>
-
-            <div className="skillsDiv">
-              <img
-                src="./img/languages.png"
-                alt="languages"
-                className="skills-lang"
-              />
-              <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>EJS</li>
-                <li>React.js</li>
-                <li>MongoDB / Mongoose / Atlas</li>
-                <li>DOM Manipulation</li>
-                <li>Bash Command Line</li>
-                <li>Git</li>
-                <li>Reactive Design</li>
-              </ul>
             </div>
           </div>
         </div>

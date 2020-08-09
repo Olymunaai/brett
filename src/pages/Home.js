@@ -1,11 +1,14 @@
 import React, { Fragment } from "react";
+import Name from "../components/Name";
 
 const Home = () => {
   return (
     <Fragment>
       <header>
         <div className="pageContainer">
-          <h1 className="title">Brett Cahill</h1>
+          <h1 className="title">
+            <Name />
+          </h1>
           <h3 className="underTitle">Junior Web Developer</h3>
           <div className="lang-img">
             <img src="./img/nodejs.png" alt="languages" className="languages" />
