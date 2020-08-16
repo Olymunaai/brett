@@ -1,5 +1,12 @@
 const project = [
   {
+    img: "./img/cartoonbnb.PNG",
+    link: "https://master.d3dxe4akplo0am.amplifyapp.com/",
+    name: "cartoonbnb",
+    info:
+      "This project was build with React and utilises Grid and Flexbox. The project involved building a carousel within React and required a lot of media query work for it to run smoothly at different screen-sizes. I will likely add entries to this once I have more cartoon house ideas!",
+  },
+  {
     img: "./img/3310.PNG",
     link: "https://master.d343b25wawqlw7.amplifyapp.com/",
     name: "Apple-styled Nokia 3310",
