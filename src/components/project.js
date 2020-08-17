@@ -34,13 +34,13 @@ const project = [
     info:
       "This was created with vanilla JS and some Bootstrap for styling. It's a lightweight application that outputs MPG based on the miles and litres inputs.",
   },
-  {
-    img: "./img/bridgeman.PNG",
-    link: "./bmk",
-    name: "Bridgeman Kettle LLP Landing Page",
-    info:
-      "I recruited for this company and noticed that their website is dated and not reactive in design. I decided to create a landing page, using information from their public website. This project uses HTML and CSS.",
-  },
+  // {
+  //   img: "./img/bridgeman.PNG",
+  //   link: "./bmk",
+  //   name: "Bridgeman Kettle LLP Landing Page",
+  //   info:
+  //     "I recruited for this company and noticed that their website is dated and not reactive in design. I decided to create a landing page, using information from their public website. This project uses HTML and CSS.",
+  // },
 ];
 
 export default project;
