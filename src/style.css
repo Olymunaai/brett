@@ -348,12 +348,14 @@ header {
     display: flex;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
-    transition: all 500ms ease-in-out;
+    transition: top 300ms ease-in-out;
     position: fixed;
     top: -280px;
+    opacity: 0;
   }
 
   .show {
     top: 0px;
+    opacity: 1;
   }
 }

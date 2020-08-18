@@ -14,28 +14,21 @@ const Skills = () => {
                 className="skills-lang"
               />
               <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>React.js</li>
+                <li>Node JS</li>
+                <li>React JS</li>
+                <li>Express JS</li>
                 <li>MongoDB / Mongoose</li>
-                <li>DOM Manipulation</li>
-                <li>Bash Command Line</li>
-                <li>Git</li>
+                <li>Git Command Line</li>
+                <li>Github, AWS Amplify</li>
                 <li>Responsive Design</li>
               </ul>
             </div>
-            <div className="skillsDiv">
+            <div className="skillsDiv certificate">
               <img
                 src="./img/AngelaYuCert.jpg"
                 alt="certificate"
                 className="cert"
               />
-              <p className="cert-para">
-                In addition to self-teaching and using online tutorials, I have
-                completed Angela Yu's complete 2020 Web Development Bootcamp
-                course, which covered a range of frontend and backend
-                development.
-              </p>
             </div>
           </div>
         </div>
