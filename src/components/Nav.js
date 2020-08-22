@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
+import Theme from "./theme/Theme";
 
 const Nav = () => {
   const [show, setShow] = useState("");
@@ -15,6 +16,8 @@ const Nav = () => {
   return (
     <Fragment>
       <nav className="navbar">
+        <Theme />
+
         <ul className={show + " navbar-nav"}>
           <li className="nav-item" onClick={onClick}>
             <Link to="/" className="menu-1">

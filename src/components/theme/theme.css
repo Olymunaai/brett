@@ -1,0 +1,128 @@
+:root {
+  --color1: white;
+  --color2: #455a64;
+  --color3: #37474f;
+  --color4: #263238;
+}
+
+.theme {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  border: 2px solid var(--color2);
+  overflow: hidden;
+}
+
+.layer1 {
+  height: 40%;
+  width: 100%;
+  background-color: var(--color4);
+}
+
+.layer2 {
+  height: 60%;
+  width: 100%;
+  background-color: var(--color3);
+}
+
+.themeSelect {
+  position: absolute;
+  flex-direction: column;
+  width: 200px;
+  left: -215px;
+  top: 17%;
+  display: flex;
+  border-radius: 15px;
+  transition: all 0.5s ease-out;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.slide {
+  left: 15px;
+}
+
+.themeColor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--color2);
+}
+
+.themeColor:hover {
+  filter: brightness(110%);
+}
+
+.selectionColor {
+  height: 40px;
+  width: 40px;
+  background: white;
+  display: inline-block;
+  margin: 10px;
+  border: 1px black solid;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.colorName {
+  margin: 10px;
+}
+
+.color1 {
+  height: 40%;
+  width: 100%;
+}
+
+.color2 {
+  height: 50%;
+  width: 100%;
+}
+
+.original {
+  background-color: #455a64;
+}
+
+.original1 {
+  background-color: #37474f;
+}
+
+.original2 {
+  background-color: #263238;
+}
+
+.blue {
+  background-color: #4d5cb2;
+}
+
+.blue1 {
+  background-color: #243492;
+}
+
+.blue2 {
+  background-color: #16205d;
+}
+
+.brown {
+  background-color: #733326;
+}
+.brown1 {
+  background-color: #4c231a;
+}
+.brown2 {
+  background-color: #26110d;
+}
+
+.purple {
+  background-color: #55275e;
+}
+.purple1 {
+  background-color: #321a37;
+}
+.purple2 {
+  background-color: #2a132f;
+}

@@ -49,6 +49,7 @@ ul {
 
 .navbar {
   height: 10vh;
+  min-height: fit-content;
   width: 100%;
   right: 0;
   position: fixed;
@@ -80,7 +81,7 @@ ul {
 }
 
 .burger {
-  border-bottom: 3px white solid;
+  border-bottom: 3px var(--color2) solid;
   width: 30px;
   height: 8px;
 }
@@ -178,7 +179,7 @@ ul {
     fill: black;
   }
   to {
-    fill: white;
+    fill: var(--color1);
   }
 }
 
