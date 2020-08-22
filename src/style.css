@@ -48,8 +48,7 @@ ul {
 } */
 
 .navbar {
-  height: 10vh;
-  min-height: fit-content;
+  height: 85px;
   width: 100%;
   right: 0;
   position: fixed;
@@ -73,8 +72,8 @@ ul {
 .burger-div {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 25px;
+  position: absolute;
+  top: 20px;
   right: 25px;
   display: none;
   z-index: 10;
