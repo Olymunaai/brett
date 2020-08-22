@@ -192,6 +192,25 @@ ul {
 
 .languages {
   width: 100px;
+  animation: invisible 2.2s ease 0s, display 0.5s ease forwards 2.2s;
+}
+
+@keyframes invisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes display {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .pageContainer {
